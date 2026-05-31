@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telefonos - iPhone Store Core</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="nav container">
+            <a href="index.html" class="brand">iPhone Store Core</a>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-button" aria-label="Abrir menu"><span></span><span></span><span></span></label>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Telefonos</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <button class="cart-toggle" type="button" aria-label="Abrir carrito">
+                <span class="cart-icon">Cart</span>
+                <strong class="cart-count">0</strong>
+            </button>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="page-hero reveal">
+            <p class="eyebrow">Catalogo</p>
+            <h1>Elige el iPhone que va contigo.</h1>
+            <p>Filtra por gama, compara precios y consulta disponibilidad desde la misma tienda.</p>
+        </section>
+
+        <section class="section">
+            <div class="catalog-tools">
+                <button class="filter-pill active" type="button" data-filter="todos">Todos</button>
+                <button class="filter-pill" type="button" data-filter="pro">Pro</button>
+                <button class="filter-pill" type="button" data-filter="plus">Plus</button>
+                <button class="filter-pill" type="button" data-filter="base">Base</button>
+            </div>
+
+            <div class="product-grid">
+                <article class="product-card reveal" data-category="base">
+                    <button class="favorite" type="button" aria-label="Marcar favorito">+</button>
+                    <img src="descargar.webp" alt="iPhone 14">
+                    <div class="product-info">
+                        <span>128 GB</span>
+                        <h3>iPhone 14</h3>
+                        <p>Equilibrio perfecto para redes, fotos, video y uso diario.</p>
+                        <div class="price-row"><strong>$699</strong><button class="add-to-cart" type="button" data-name="iPhone 14" data-price="$699" data-image="descargar.webp">Comprar</button></div>
+                    </div>
+                </article>
+
+                <article class="product-card featured reveal" data-category="pro">
+                    <button class="favorite" type="button" aria-label="Marcar favorito">+</button>
+                    <img src="OIP (3).webp" alt="iPhone 15 Pro">
+                    <div class="product-info">
+                        <span>256 GB</span>
+                        <h3>iPhone 15 Pro</h3>
+                        <p>Rendimiento avanzado, acabado premium y camara profesional.</p>
+                        <div class="price-row"><strong>$999</strong><button class="add-to-cart" type="button" data-name="iPhone 15 Pro" data-price="$999" data-image="OIP (3).webp">Comprar</button></div>
+                    </div>
+                </article>
+
+                <article class="product-card reveal" data-category="base">
+                    <button class="favorite" type="button" aria-label="Marcar favorito">+</button>
+                    <img src="descargar (1).webp" alt="iPhone 15">
+                    <div class="product-info">
+                        <span>128 GB</span>
+                        <h3>iPhone 15</h3>
+                        <p>Diseno moderno, carga rapida y pantalla brillante.</p>
+                        <div class="price-row"><strong>$849</strong><button class="add-to-cart" type="button" data-name="iPhone 15" data-price="$849" data-image="descargar (1).webp">Comprar</button></div>
+                    </div>
+                </article>
+
+                <article class="product-card reveal" data-category="plus">
+                    <button class="favorite" type="button" aria-label="Marcar favorito">+</button>
+                    <img src="OIP (1).webp" alt="iPhone Plus">
+                    <div class="product-info">
+                        <span>256 GB</span>
+                        <h3>iPhone Plus</h3>
+                        <p>Pantalla grande para entretenimiento y bateria de larga duracion.</p>
+                        <div class="price-row"><strong>$899</strong><button class="add-to-cart" type="button" data-name="iPhone Plus" data-price="$899" data-image="OIP (1).webp">Comprar</button></div>
+                    </div>
+                </article>
+
+                <article class="product-card reveal" data-category="pro">
+                    <button class="favorite" type="button" aria-label="Marcar favorito">+</button>
+                    <img src="OIP (5).webp" alt="iPhone Pro Max">
+                    <div class="product-info">
+                        <span>512 GB</span>
+                        <h3>iPhone Pro Max</h3>
+                        <p>Mas pantalla, mas memoria y potencia para trabajo creativo.</p>
+                        <div class="price-row"><strong>$1199</strong><button class="add-to-cart" type="button" data-name="iPhone Pro Max" data-price="$1199" data-image="OIP (5).webp">Comprar</button></div>
+                    </div>
+                </article>
+
+                <article class="product-card reveal" data-category="base">
+                    <button class="favorite" type="button" aria-label="Marcar favorito">+</button>
+                    <img src="app.png" alt="iPhone compacto">
+                    <div class="product-info">
+                        <span>64 GB</span>
+                        <h3>iPhone Essential</h3>
+                        <p>Opcion economica para estrenar iPhone con buen rendimiento.</p>
+                        <div class="price-row"><strong>$499</strong><button class="add-to-cart" type="button" data-name="iPhone Essential" data-price="$499" data-image="app.png">Comprar</button></div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div><h3>iPhone Store Core</h3><p>Catalogo actualizado y asesorias rapidas.</p></div>
+            <div class="footer-links"><a href="index.html">Inicio</a><a href="servicios.html">Servicios</a><a href="contacto.html">Contacto</a></div>
+        </div>
+    </footer>
+    <aside class="cart-panel" aria-live="polite">
+        <div class="cart-head">
+            <strong>Tu carrito</strong>
+            <button class="cart-close" type="button" aria-label="Cerrar carrito">x</button>
+        </div>
+        <div class="cart-items"></div>
+        <p class="cart-empty">Todavia no tienes productos guardados.</p>
+        <a href="contacto.html" class="btn primary cart-checkout">Cotizar compra</a>
+    </aside>
+    <div class="cat-runner" aria-hidden="true">
+        <div class="cat-body">
+            <span class="cat-ear left"></span><span class="cat-ear right"></span>
+            <span class="cat-head"><i class="cat-eye left"></i><i class="cat-eye right"></i><b class="cat-nose"></b><em class="cat-mouth"></em></span>
+            <span class="cat-tail"></span><span class="cat-paw paw-one"></span><span class="cat-paw paw-two"></span>
+            <img class="cat-cargo" alt="">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

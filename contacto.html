@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - iPhone Store Core</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="nav container">
+            <a href="index.html" class="brand">iPhone Store Core</a>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-button" aria-label="Abrir menu"><span></span><span></span><span></span></label>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Telefonos</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <button class="cart-toggle" type="button" aria-label="Abrir carrito">
+                <span class="cart-icon">Cart</span>
+                <strong class="cart-count">0</strong>
+            </button>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="page-hero reveal">
+            <p class="eyebrow">Contacto</p>
+            <h1>Reserva, cotiza o pregunta por tu proximo iPhone.</h1>
+            <p>Escribe el modelo que quieres y te responderemos con disponibilidad, precio y opciones.</p>
+        </section>
+
+        <section class="section contact-layout">
+            <aside class="contact-card reveal">
+                <h3>Atencion directa</h3>
+                <p>Horario: lunes a sabado, 9:00 AM a 7:00 PM.</p>
+                <p>Ubicacion: Santo Domingo, Republica Dominicana.</p>
+                <div class="contact-actions">
+                    <a href="productos.html" class="btn secondary">Ver catalogo</a>
+                </div>
+            </aside>
+
+            <form class="contact-card contact-form reveal">
+                <div class="field">
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" required>
+                </div>
+                <div class="field">
+                    <label for="telefono">Telefono</label>
+                    <input id="telefono" name="telefono" type="tel" placeholder="809 000 0000" required>
+                </div>
+                <div class="field">
+                    <label for="modelo">Modelo de interes</label>
+                    <select id="modelo" name="modelo">
+                        <option>iPhone 15 Pro</option>
+                        <option>iPhone 15</option>
+                        <option>iPhone 14</option>
+                        <option>iPhone Pro Max</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" placeholder="Color, memoria, presupuesto o dudas"></textarea>
+                </div>
+                <button class="btn primary" type="submit">Enviar solicitud</button>
+                <p class="form-note" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div><h3>iPhone Store Core</h3><p>Listos para ayudarte a estrenar telefono.</p></div>
+            <div class="footer-links"><a href="index.html">Inicio</a><a href="productos.html">Telefonos</a><a href="servicios.html">Servicios</a></div>
+        </div>
+    </footer>
+    <aside class="cart-panel" aria-live="polite">
+        <div class="cart-head">
+            <strong>Tu carrito</strong>
+            <button class="cart-close" type="button" aria-label="Cerrar carrito">x</button>
+        </div>
+        <div class="cart-items"></div>
+        <p class="cart-empty">Todavia no tienes productos guardados.</p>
+        <a href="contacto.html" class="btn primary cart-checkout">Cotizar compra</a>
+    </aside>
+    <script src="script.js"></script>
+</body>
+</html>

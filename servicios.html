@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios - iPhone Store Core</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="nav container">
+            <a href="index.html" class="brand">iPhone Store Core</a>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-button" aria-label="Abrir menu"><span></span><span></span><span></span></label>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Telefonos</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <button class="cart-toggle" type="button" aria-label="Abrir carrito">
+                <span class="cart-icon">Cart</span>
+                <strong class="cart-count">0</strong>
+            </button>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="page-hero reveal">
+            <p class="eyebrow">Servicios</p>
+            <h1>Te ayudamos antes y despues de comprar.</h1>
+            <p>La tienda no solo vende telefonos: tambien te acompana con configuracion, accesorios y soporte.</p>
+        </section>
+
+        <section class="service-visual reveal">
+            <img src="OIP (2).webp" alt="Caracteristicas de iPhone">
+            <div>
+                <p class="eyebrow">Guia rapida</p>
+                <h2>Compara pantalla, camara, bateria y memoria antes de decidir.</h2>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="service-grid">
+                <article class="service-card reveal">
+                    <span>01</span>
+                    <h3>Asesoria de compra</h3>
+                    <p>Comparamos modelos, memoria, bateria y precio para que elijas el equipo correcto.</p>
+                </article>
+                <article class="service-card reveal">
+                    <span>02</span>
+                    <h3>Configuracion inicial</h3>
+                    <p>Te ayudamos con Apple ID, transferencia de datos, seguridad y apps principales.</p>
+                </article>
+                <article class="service-card reveal">
+                    <span>03</span>
+                    <h3>Accesorios premium</h3>
+                    <p>Cristal protector, cargadores, audifonos y covers compatibles con cada modelo.</p>
+                </article>
+                <article class="service-card reveal">
+                    <span>04</span>
+                    <h3>Revision del equipo</h3>
+                    <p>Verificamos pantalla, camara, bateria, botones y estado general antes de la entrega.</p>
+                </article>
+                <article class="service-card reveal">
+                    <span>05</span>
+                    <h3>Entrega coordinada</h3>
+                    <p>Coordinamos entrega local y confirmamos disponibilidad antes de cerrar la compra.</p>
+                </article>
+                <article class="service-card reveal">
+                    <span>06</span>
+                    <h3>Soporte personal</h3>
+                    <p>Atencion por mensaje para resolver dudas sobre uso, respaldo, actualizaciones y garantia.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div><h3>iPhone Store Core</h3><p>Servicios claros para comprar con confianza.</p></div>
+            <div class="footer-links"><a href="index.html">Inicio</a><a href="productos.html">Telefonos</a><a href="contacto.html">Contacto</a></div>
+        </div>
+    </footer>
+    <aside class="cart-panel" aria-live="polite">
+        <div class="cart-head">
+            <strong>Tu carrito</strong>
+            <button class="cart-close" type="button" aria-label="Cerrar carrito">x</button>
+        </div>
+        <div class="cart-items"></div>
+        <p class="cart-empty">Todavia no tienes productos guardados.</p>
+        <a href="contacto.html" class="btn primary cart-checkout">Cotizar compra</a>
+    </aside>
+    <script src="script.js"></script>
+</body>
+</html>

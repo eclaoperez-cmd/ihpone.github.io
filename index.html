@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone Store Core</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="nav container">
+            <a href="index.html" class="brand">iPhone Store Core</a>
+
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-button" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Telefonos</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+
+            <button class="cart-toggle" type="button" aria-label="Abrir carrito">
+                <span class="cart-icon">Cart</span>
+                <strong class="cart-count">0</strong>
+            </button>
+        </nav>
+
+        <section class="hero container">
+            <div class="hero-copy reveal">
+                <p class="eyebrow">Nueva coleccion 2026</p>
+                <h1>Compra tu iPhone con estilo, potencia y garantia.</h1>
+                <p>
+                    Modelos seleccionados, ofertas destacadas, accesorios premium y atencion
+                    personalizada para que estrenes telefono sin complicaciones.
+                </p>
+                <div class="hero-actions">
+                    <a href="productos.html" class="btn primary">Ver catalogo</a>
+                    <a href="contacto.html" class="btn secondary">Cotizar ahora</a>
+                </div>
+                <div class="stats">
+                    <div><strong>12+</strong><span>Modelos</span></div>
+                    <div><strong>24h</strong><span>Entrega rapida</span></div>
+                    <div><strong>100%</strong><span>Revisados</span></div>
+                </div>
+            </div>
+
+            <div class="hero-stage reveal">
+                <img src="OIP (6).webp" alt="Coleccion de iPhone" class="hero-banner">
+                <div class="phone-orbit">
+                    <img src="th3.png" alt="iPhone destacado" class="hero-phone main-phone">
+                    <img src="th.png" alt="iPhone blanco" class="hero-phone side-phone">
+                </div>
+                <div class="floating-card card-top">
+                    <span>Oferta</span>
+                    <strong>Desde $699</strong>
+                </div>
+                <div class="floating-card card-bottom">
+                    <span>Bateria</span>
+                    <strong>Todo el dia</strong>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section class="section container">
+            <div class="section-heading">
+                <p class="eyebrow">Lo mas buscado</p>
+                <h2>Telefonos listos para llevar</h2>
+                <p>Elige por rendimiento, camara, bateria o precio. Todo esta organizado para comprar rapido.</p>
+            </div>
+
+            <div class="product-grid">
+                <article class="product-card reveal">
+                    <button class="favorite" type="button" aria-label="Marcar favorito">+</button>
+                    <img src="th.png" alt="iPhone 14">
+                    <div class="product-info">
+                        <span>128 GB</span>
+                        <h3>iPhone 14</h3>
+                        <p>Pantalla Super Retina, gran bateria y camara doble avanzada.</p>
+                        <div class="price-row">
+                            <strong>$699</strong>
+                            <button class="add-to-cart" type="button" data-name="iPhone 14" data-price="$699" data-image="th.png">Comprar</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card featured reveal">
+                    <button class="favorite" type="button" aria-label="Marcar favorito">+</button>
+                    <img src="th3.png" alt="iPhone 15 Pro">
+                    <div class="product-info">
+                        <span>256 GB</span>
+                        <h3>iPhone 15 Pro</h3>
+                        <p>Diseno premium, chip rapido y camara profesional para contenido.</p>
+                        <div class="price-row">
+                            <strong>$999</strong>
+                            <button class="add-to-cart" type="button" data-name="iPhone 15 Pro" data-price="$999" data-image="th3.png">Comprar</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card reveal">
+                    <button class="favorite" type="button" aria-label="Marcar favorito">+</button>
+                    <img src="th4.png" alt="iPhone 15">
+                    <div class="product-info">
+                        <span>128 GB</span>
+                        <h3>iPhone 15</h3>
+                        <p>Dynamic Island, colores elegantes y excelente rendimiento diario.</p>
+                        <div class="price-row">
+                            <strong>$849</strong>
+                            <button class="add-to-cart" type="button" data-name="iPhone 15" data-price="$849" data-image="th4.png">Comprar</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="showcase">
+            <div class="showcase-inner container">
+                <div class="showcase-copy reveal">
+                    <p class="eyebrow">Experiencia premium</p>
+                    <h2>Una tienda pensada para comparar, elegir y estrenar.</h2>
+                    <p>
+                        Revisamos cada equipo, te ayudamos a escoger memoria y color,
+                        y preparamos tu compra con accesorios compatibles.
+                    </p>
+                    <a href="servicios.html" class="btn primary">Ver servicios</a>
+                </div>
+                <div class="showcase-media reveal">
+                    <img src="OIP (4).webp" alt="iPhone futurista plegable">
+                    <img src="descargar.webp" alt="iPhone dorado">
+                </div>
+                <div class="spec-panel reveal">
+                    <div><span>Garantia</span><strong>Incluida</strong></div>
+                    <div><span>Pagos</span><strong>Flexibles</strong></div>
+                    <div><span>Soporte</span><strong>Personal</strong></div>
+                    <div><span>Entrega</span><strong>Local</strong></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container">
+            <div class="section-heading">
+                <p class="eyebrow">Categorias</p>
+                <h2>Compra por necesidad</h2>
+            </div>
+
+            <div class="category-grid">
+                <a href="productos.html" class="category-card reveal">
+                    <span>Pro</span>
+                    <strong>Maxima potencia</strong>
+                    <p>Para camara, juegos y trabajo pesado.</p>
+                </a>
+                <a href="productos.html" class="category-card reveal">
+                    <span>Plus</span>
+                    <strong>Pantalla grande</strong>
+                    <p>Ideal para videos, redes y bateria larga.</p>
+                </a>
+                <a href="productos.html" class="category-card reveal">
+                    <span>Base</span>
+                    <strong>Precio inteligente</strong>
+                    <p>Todo lo importante en un equipo elegante.</p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div>
+                <h3>iPhone Store Core</h3>
+                <p>Telefonos, accesorios y asesoria para comprar mejor.</p>
+            </div>
+            <div class="footer-links">
+                <a href="productos.html">Telefonos</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
+        </div>
+    </footer>
+
+    <aside class="cart-panel" aria-live="polite">
+        <div class="cart-head">
+            <strong>Tu carrito</strong>
+            <button class="cart-close" type="button" aria-label="Cerrar carrito">x</button>
+        </div>
+        <div class="cart-items"></div>
+        <p class="cart-empty">Todavia no tienes productos guardados.</p>
+        <a href="contacto.html" class="btn primary cart-checkout">Cotizar compra</a>
+    </aside>
+
+    <div class="cat-runner" aria-hidden="true">
+        <div class="cat-body">
+            <span class="cat-ear left"></span>
+            <span class="cat-ear right"></span>
+            <span class="cat-head">
+                <i class="cat-eye left"></i>
+                <i class="cat-eye right"></i>
+                <b class="cat-nose"></b>
+                <em class="cat-mouth"></em>
+            </span>
+            <span class="cat-tail"></span>
+            <span class="cat-paw paw-one"></span>
+            <span class="cat-paw paw-two"></span>
+            <img class="cat-cargo" alt="">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
